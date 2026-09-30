@@ -1,0 +1,7 @@
+# ESP32-P4 (Guition JC8012P4A1). Set the target once with: idf.py set-target esp32p4
+CONFIG_SPIRAM=y
+CONFIG_SPIRAM_SPEED_200M=y
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_400=y
+CONFIG_FREERTOS_HZ=1000
+# Serial console over the board's USB (adjust after checking which USB-C port is which)
+CONFIG_ESP_CONSOLE_USB_SERIAL_JTAG=y

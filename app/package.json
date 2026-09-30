@@ -1,0 +1,17 @@
+{
+  "name": "gift-device-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Windows companion app for the gift device: autostarts, syncs time and phrases over USB serial",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "dependencies": {
+    "serialport": "^12.0.0"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0"
+  }
+}

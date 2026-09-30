@@ -1,0 +1,7 @@
+node_modules/
+dist/
+firmware/build/
+firmware/sdkconfig
+firmware/sdkconfig.old
+firmware/test_host/test_gift
+*.log
