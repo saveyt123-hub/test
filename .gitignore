@@ -5,3 +5,4 @@ firmware/sdkconfig
 firmware/sdkconfig.old
 firmware/test_host/test_gift
 *.log
+docs/*.private.md
